@@ -1,0 +1,65 @@
+:root {
+    --color-darkblue: #233249;
+    --color-red: #EA5048;
+    --color-white: #FFFFFF;
+    --color-lightgrey: #EDEDED;
+    --color-darkgrey: #E0E0E0;
+
+    --color-blue: #26C1DF;
+    --color-turkis: #6DCEAE;
+    --color-orange: #FF9810;
+    --color-yellow: #F7C647;
+    --color-pink: #E04A76;
+}
+
+body {
+    background-color: var(--color-lightgrey);
+    margin: 0;
+    position: relative;
+}
+
+#overskrift,
+#beskrivelse,
+#krav,
+#aflevering {
+    background-color: var(--color-darkgrey);
+}
+
+#skrift1,
+#skrift2,
+#skrift3 {
+    margin: 1em;
+}
+
+#overskrift h2 {
+    color: var(--color-darkblue);
+}
+
+#opgavebeskrivelse h3 {
+    color: var(--color-darkblue);
+}
+
+#opgavebeskrivelse p {
+    color: var(--color-red);
+}
+
+#opgavebeskrivelse h2 {
+    margin-left: 1em;
+    padding: 0.5em;
+}
+
+
+#pil_tilbage {
+    background-image: url("ikoner/backward_arrow_blue.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    margin-top: 1.2em;
+    margin-left: 1em;
+}
+
+#opgavebeskrivelse h5 {
+    color: var(--color-darkblue);
+}

@@ -1,0 +1,251 @@
+/*---------------------------------------------------
+1: Variables & Common styling
+2: Layout / Grid
+3: Form styling
+4: Table styles
+5: Page specific styles
+---------------------------------------------------*/
+
+/*---------------------------------------------------
+1: Variables & Common styling
+---------------------------------------------------*/
+/*Variables*/
+:root {
+    --color-darkblue: #233249;
+    --color-red: #EA5048;
+    --color-white: #FFFFFF;
+    --color-lightgrey: #E0E0E0;
+
+    --color-orange: #FF9810;
+
+}
+
+/*Common styling classes*/
+.rounded {
+    border-radius: 0px;
+
+}
+
+/*---------------------------------------------------
+2: Layout/grid
+---------------------------------------------------*/
+
+/*Grid container*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--color-darkblue): #233249;
+}
+
+
+/*Grid column items*/
+.frontertitle {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30vw;
+    left: 0vw;
+}
+
+.kea {
+    grid-column-start: 2;
+    grid-column-end: 0;
+    position: absolute;
+    top: 25vw;
+    left: 0vw;
+    color: white;
+}
+
+/*loginpage*/
+.loginform {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+/*loginpage*/
+.loginform {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: #FFFFFF;
+    position: absolute;
+    top: 70vw;
+
+
+}
+
+.huskmig {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    position: absolute;
+    top: 95vw;
+    left: 0vw;
+    color: white;
+}
+
+.glemt_password {
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    position: absolute;
+    top: 95vw;
+    left: 0vw;
+
+
+}
+
+.glemt_password a {
+    text-decoration: none;
+    color: white;
+}
+
+.glemt_password a:hover {
+    color: #EA5048;
+}
+
+.navn_pass_baggrund {
+
+    background-color: #e3dfdf;
+    padding: 40px;
+
+}
+
+/*loginpage grid*/
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.formgroup {
+    grid-column-start: 1;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+
+/*Inputs*/
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=subtmit] {
+    padding: 1em;
+}
+
+
+input[type=submit] {
+
+    background-color: #EA5048;
+    color: white;
+}
+
+
+
+/*---------------------------------------------------
+3: Form styling
+---------------------------------------------------*/
+
+
+/*Inputs*/
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=subtmit] {
+    padding: 1em;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    border: 0px solid black;
+}
+
+input [type=text],
+input [type=email],
+input [type=password] {
+    border: 0px solid #ff9900;
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+input [type=subtmit] {
+
+    background-color: black;
+    color: white;
+    transition: background-color 1s, color 1s;
+}
+
+input [type=submit]:hover {
+    color: black;
+    background-color: #f90;
+}
+
+/*---------------------------------------------------
+5: Page specific styles
+---------------------------------------------------*/
+/*Login page*/
+.loginpage {
+    background-color: #233249;
+}
+
+
+/*---------------------------------
+Glemt password CSS
+/*--------------------------------*/
+
+.glemtadgangskode {
+    background-color: #233249;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.huskmig {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.frontertitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.kea {
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+.glemtadgangskode {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.formgroup4 input {
+    font-family: 'Roboto', sans-serif;
+}
